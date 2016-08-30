@@ -10,3 +10,5 @@ git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 echo ""
 echo "# depot_tools" >> $HOME/.profile
 echo "export PATH=\$WORKDIR/depot_tools:\$PATH" >> $HOME/.profile
+echo "# default file permission" >> $HOME/.profile
+echo "umask 022" >> $HOME/.profile
